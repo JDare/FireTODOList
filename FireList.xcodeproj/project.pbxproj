@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3163891DD8204D732B4AC598 /* libPods-FireList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE85FAA9632C4C933AC649CF /* libPods-FireList.a */; };
+		8BB1C7511A86BFE40060E4D3 /* EditTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1C7501A86BFE40060E4D3 /* EditTodoViewController.m */; };
+		8BB80F491A85B0670055F0E8 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB80F481A85B0670055F0E8 /* Firebase.framework */; };
+		8BB80F4B1A85B09F0055F0E8 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB80F4A1A85B09F0055F0E8 /* libicucore.dylib */; };
+		8BB80F4D1A85B0AB0055F0E8 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB80F4C1A85B0AB0055F0E8 /* libc++.dylib */; };
+		8BB80F4F1A85B0B40055F0E8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB80F4E1A85B0B40055F0E8 /* CFNetwork.framework */; };
+		8BB80F511A85B0BC0055F0E8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB80F501A85B0BC0055F0E8 /* Security.framework */; };
+		8BB80F531A85B0CC0055F0E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB80F521A85B0CC0055F0E8 /* SystemConfiguration.framework */; };
+		8BB80F5B1A8690A00055F0E8 /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB80F5A1A8690A00055F0E8 /* TodoViewController.m */; };
+		8BB80F621A8697520055F0E8 /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB80F611A8697520055F0E8 /* TodoItem.m */; };
 		8BC5B7AE1A85AA0600F91A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC5B7AD1A85AA0600F91A1C /* main.m */; };
 		8BC5B7B11A85AA0600F91A1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC5B7B01A85AA0600F91A1C /* AppDelegate.m */; };
-		8BC5B7B41A85AA0600F91A1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC5B7B31A85AA0600F91A1C /* ViewController.m */; };
 		8BC5B7B71A85AA0600F91A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC5B7B51A85AA0600F91A1C /* Main.storyboard */; };
 		8BC5B7B91A85AA0600F91A1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC5B7B81A85AA0600F91A1C /* Images.xcassets */; };
 		8BC5B7BC1A85AA0600F91A1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC5B7BA1A85AA0600F91A1C /* LaunchScreen.xib */; };
@@ -27,19 +36,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		248E15FD6A58D322F03F2EEC /* Pods-FireList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireList.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireList/Pods-FireList.release.xcconfig"; sourceTree = "<group>"; };
+		7CD9CC0CB7393208944406E1 /* Pods-FireList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireList/Pods-FireList.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB1C74F1A86BFE40060E4D3 /* EditTodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTodoViewController.h; sourceTree = "<group>"; };
+		8BB1C7501A86BFE40060E4D3 /* EditTodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTodoViewController.m; sourceTree = "<group>"; };
+		8BB80F481A85B0670055F0E8 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		8BB80F4A1A85B09F0055F0E8 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		8BB80F4C1A85B0AB0055F0E8 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8BB80F4E1A85B0B40055F0E8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8BB80F501A85B0BC0055F0E8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8BB80F521A85B0CC0055F0E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8BB80F551A868D8C0055F0E8 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8BB80F591A8690A00055F0E8 /* TodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		8BB80F5A1A8690A00055F0E8 /* TodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
+		8BB80F601A8697520055F0E8 /* TodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoItem.h; path = Models/TodoItem.h; sourceTree = "<group>"; };
+		8BB80F611A8697520055F0E8 /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoItem.m; path = Models/TodoItem.m; sourceTree = "<group>"; };
 		8BC5B7A81A85AA0600F91A1C /* FireList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC5B7AC1A85AA0600F91A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC5B7AD1A85AA0600F91A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BC5B7AF1A85AA0600F91A1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BC5B7B01A85AA0600F91A1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8BC5B7B21A85AA0600F91A1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8BC5B7B31A85AA0600F91A1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8BC5B7B61A85AA0600F91A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BC5B7B81A85AA0600F91A1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8BC5B7BB1A85AA0600F91A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8BC5B7C11A85AA0600F91A1C /* FireListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC5B7C61A85AA0600F91A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC5B7C71A85AA0600F91A1C /* FireListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireListTests.m; sourceTree = "<group>"; };
+		BE85FAA9632C4C933AC649CF /* libPods-FireList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB80F531A85B0CC0055F0E8 /* SystemConfiguration.framework in Frameworks */,
+				8BB80F511A85B0BC0055F0E8 /* Security.framework in Frameworks */,
+				8BB80F4F1A85B0B40055F0E8 /* CFNetwork.framework in Frameworks */,
+				8BB80F4D1A85B0AB0055F0E8 /* libc++.dylib in Frameworks */,
+				8BB80F4B1A85B09F0055F0E8 /* libicucore.dylib in Frameworks */,
+				3163891DD8204D732B4AC598 /* libPods-FireList.a in Frameworks */,
+				8BB80F491A85B0670055F0E8 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +90,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3442217151B44787DD278B29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CD9CC0CB7393208944406E1 /* Pods-FireList.debug.xcconfig */,
+				248E15FD6A58D322F03F2EEC /* Pods-FireList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BB1C7521A86BFEC0060E4D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BB1C74F1A86BFE40060E4D3 /* EditTodoViewController.h */,
+				8BB1C7501A86BFE40060E4D3 /* EditTodoViewController.m */,
+				8BB80F591A8690A00055F0E8 /* TodoViewController.h */,
+				8BB80F5A1A8690A00055F0E8 /* TodoViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8BB80F541A85B1200055F0E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8BB80F5C1A86963B0055F0E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BB80F601A8697520055F0E8 /* TodoItem.h */,
+				8BB80F611A8697520055F0E8 /* TodoItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		8BC5B79F1A85AA0600F91A1C = {
 			isa = PBXGroup;
 			children = (
 				8BC5B7AA1A85AA0600F91A1C /* FireList */,
 				8BC5B7C41A85AA0600F91A1C /* FireListTests */,
 				8BC5B7A91A85AA0600F91A1C /* Products */,
+				3442217151B44787DD278B29 /* Pods */,
+				FEF6D4C7CD2155547C1F925F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +149,16 @@
 		8BC5B7AA1A85AA0600F91A1C /* FireList */ = {
 			isa = PBXGroup;
 			children = (
+				8BB1C7521A86BFEC0060E4D3 /* Controllers */,
+				8BB80F5C1A86963B0055F0E8 /* Models */,
+				8BB80F541A85B1200055F0E8 /* Services */,
 				8BC5B7AF1A85AA0600F91A1C /* AppDelegate.h */,
 				8BC5B7B01A85AA0600F91A1C /* AppDelegate.m */,
-				8BC5B7B21A85AA0600F91A1C /* ViewController.h */,
-				8BC5B7B31A85AA0600F91A1C /* ViewController.m */,
 				8BC5B7B51A85AA0600F91A1C /* Main.storyboard */,
 				8BC5B7B81A85AA0600F91A1C /* Images.xcassets */,
 				8BC5B7BA1A85AA0600F91A1C /* LaunchScreen.xib */,
 				8BC5B7AB1A85AA0600F91A1C /* Supporting Files */,
+				8BB80F551A868D8C0055F0E8 /* Constants.h */,
 			);
 			path = FireList;
 			sourceTree = "<group>";
@@ -119,6 +189,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FEF6D4C7CD2155547C1F925F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB80F521A85B0CC0055F0E8 /* SystemConfiguration.framework */,
+				8BB80F501A85B0BC0055F0E8 /* Security.framework */,
+				8BB80F4E1A85B0B40055F0E8 /* CFNetwork.framework */,
+				8BB80F4C1A85B0AB0055F0E8 /* libc++.dylib */,
+				8BB80F4A1A85B09F0055F0E8 /* libicucore.dylib */,
+				8BB80F481A85B0670055F0E8 /* Firebase.framework */,
+				BE85FAA9632C4C933AC649CF /* libPods-FireList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC5B7CB1A85AA0600F91A1C /* Build configuration list for PBXNativeTarget "FireList" */;
 			buildPhases = (
+				49972730E0AA4C3E823692C9 /* Check Pods Manifest.lock */,
 				8BC5B7A41A85AA0600F91A1C /* Sources */,
 				8BC5B7A51A85AA0600F91A1C /* Frameworks */,
 				8BC5B7A61A85AA0600F91A1C /* Resources */,
+				F7C668BA80DB99DE7E2C3F0D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +300,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49972730E0AA4C3E823692C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C668BA80DB99DE7E2C3F0D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireList/Pods-FireList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BC5B7A41A85AA0600F91A1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BC5B7B41A85AA0600F91A1C /* ViewController.m in Sources */,
+				8BB1C7511A86BFE40060E4D3 /* EditTodoViewController.m in Sources */,
+				8BB80F5B1A8690A00055F0E8 /* TodoViewController.m in Sources */,
 				8BC5B7B11A85AA0600F91A1C /* AppDelegate.m in Sources */,
+				8BB80F621A8697520055F0E8 /* TodoItem.m in Sources */,
 				8BC5B7AE1A85AA0600F91A1C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +462,13 @@
 		};
 		8BC5B7CC1A85AA0600F91A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD9CC0CB7393208944406E1 /* Pods-FireList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FireList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +477,13 @@
 		};
 		8BC5B7CD1A85AA0600F91A1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248E15FD6A58D322F03F2EEC /* Pods-FireList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FireList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +543,7 @@
 				8BC5B7CD1A85AA0600F91A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BC5B7CE1A85AA0600F91A1C /* Build configuration list for PBXNativeTarget "FireListTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +552,7 @@
 				8BC5B7D01A85AA0600F91A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
